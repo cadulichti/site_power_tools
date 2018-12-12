@@ -1,0 +1,557 @@
+.header {
+  background-image: url('../img/capa.png');
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu {
+  background: #FAF5F5;
+  height: 80px; 
+}
+.header ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-right: 80px;
+  font-family: 'Roboto Slab',sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.header ul li {
+    margin: 10px;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  .header ul li a{
+    color: #222;
+    padding: 10px;
+  }
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -8px;
+    left: 80px;
+    padding: 10px;
+}
+/*introdução*/
+.header h1{
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Roboto Slab',sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+.header input{
+  width: 385px;
+  height: 42px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn a {
+  background: #CE2026;
+  height: 42px;
+  width: 80px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/*fimintrodução*/
+
+/*segunda parte*/
+.produtos{
+  height: 150px;
+  background: #CE2026;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mecanica,.balanceamento,.guincho-2 {
+  width: 300px;
+  margin: 20px;
+}
+.mecanica h3,.balanceamento h3,.guincho-2 h3 {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'roboto slab',sans-serif;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.mecanica p,.balanceamento p,.guincho-2 p{
+  color: #fff;
+  font-size: 16px;
+  font-family: 'roboto slab',sans-serif;
+  text-align: center;
+}
+
+.sep{
+  position: absolute;
+  width: 2px;
+  height: 100px;
+  left: 500px;
+  top: 930px;
+  background: #FFF;
+}
+.sep2{
+  position: absolute;
+  width: 2px;
+  height: 100px;
+  left: 840px;
+  top: 930px;
+  background: #FFF;
+}
+/*fim segunda parte*/
+
+/*terceira parte*/
+.agende-sua-vistoria{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bem-vindo{
+  width: 500px;
+}
+.bem-vindo h2{
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'roboto slab',sans-serif;
+}
+.bem-vindo p {
+  font-size: 16px;
+  font-family: 'roboto slab',sans-serif;
+  width: 400px;
+  font-family: 'quicksand',sans-serif;
+}
+.visita h3{
+  width: 500px;
+  height: 110px;
+  background: #CE2026;
+  position: absolute;
+  top:1130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.visita img {
+  width: 100%;
+  margin-top: 190px;
+}
+.visita h3:hover {
+  background: rgba(0,0,0,.8);
+  transition: 1s;
+}
+/*fim terceira parte*/
+/*quarta parte*/
+.produtos-2{
+  height: 800px;
+  background: #EEF0E4;
+  margin-top: 74px;
+}
+.intro h2{
+  font-size: 36px;
+  font-family: 'roboto slab',sans-serif;
+  font-weight: bold;
+  font-style: medium;
+  text-align: center;
+  padding-top: 64px;
+    width: 100%;
+}
+.intro p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 32px;
+  font-family: 'quicksand',sans-serif;
+    width: 100%;
+}
+.geral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.localizacao h3,.preco h3,.profissional h3 {
+  font-size: 18px;
+  color: #222;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.localizacao p,.preco p,.profissional p{
+  text-align: center;
+  width: 250px;
+  margin: 30px;
+  font-family: 'quicksand',sans-serif;
+}
+.localizacao img,.preco img,.profissional img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.btn-cont {
+  width:270px;
+  height: 60px;
+  border:1px solid #CE2026;
+  padding: 10px;
+  color: #CE2026;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  margin-top: 64px;
+}
+/*fim quarta parte*/
+
+/*quinta parte*/
+.nossa-marca h2{
+  font-size: 36px;
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  font-weight: bold;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/*fim quinta parte*/
+
+/*sexta parte*/
+.servicos{
+  height: 150px;
+  background: #CE2026;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone,.email,.guincho {
+  width: 300px;
+  margin: 20px;
+}
+.phone h3,.email h3,.guincho h3 {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'roboto',sans-serif;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.phone p,.email p,.guincho p{
+  color: #fff;
+  font-size: 16px;
+  font-family: 'quicksand',sans-serif;
+  text-align: center;
+}
+.phone img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 215px;
+  top:3040px;
+}
+.email img {
+  position: absolute;
+  top: 3045px;
+  left:575px;
+}
+.guincho img {
+  position: absolute;
+  top: 3035px;
+  left:935px;
+}
+.sep3{
+  position: absolute;
+  width: 2px;
+  height: 100px;
+  left: 500px;
+  top: 3020px;
+  background: #fff;
+}
+.sep4{
+  position: absolute;
+  width: 2px;
+  height: 100px;
+  left: 800px;
+  top: 3020px;
+  background: #FFF;
+}
+
+/*fim sexta parte*/
+/*setima parte*/
+.rodape {
+  background: #222;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.rodape h3 {
+  font-size: 22px;
+  font-family: 'roboto',sans-serif;
+  font-weight: bold;
+  margin-top: 64px;
+}
+.rodape p {
+  font-size: 16px;
+  font-family: 'roboto',sans-serif;
+}
+.volte-sempre {
+  width: 350px;
+}
+.nossos-servicos{
+  width: 350px;
+}
+.encontre{
+  width: 350px;
+}
+.volte-sempre p {
+  line-height: 1.5em;
+  margin-top: 20px;
+  font-family: 'roboto slab',sans-serif;
+}
+.nossos-servicos ul li {
+  line-height: 1em;
+  margin-top: 20px;
+  font-family: 'roboto slab',sans-serif;
+}
+.encontre p {
+  line-height: 2em;
+  margin-top: 10px;
+  font-family: 'roboto slab',sans-serif;
+    width: 200px;
+}
+/*fim setima parte*/
+.rodape-bg {
+  background: #000;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 12px;
+    width: 100%;
+}
+
+@media screen and (max-width:768px){
+  .menu {
+    width: 100%;
+  }
+  .menu ul li a{
+    font-size: 14px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .menu ul li {
+    width: 50px;
+  }
+  .menu ul {
+    margin: 0 auto;
+  }
+  .separador {
+    display: none;
+  }
+  .logo{
+    position: absolute;
+    left:10px;
+}
+.header h1{
+  font-size: 32px;
+}
+.header{
+  height: 650px;
+}
+.btn{
+  width: 250px;
+  margin: 0 auto;
+}
+
+.btn a {
+  font-size: 12px;
+  padding: 12px;
+}
+.btn-enviar {
+  width: 140px;
+}
+.produtos{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+.produtos h3{
+  font-size: 16px;
+}
+.produtos p {
+  font-size: 14px;
+}
+.mecanica{
+  width: 300px;
+}
+.sep,.sep2{
+  display: none;
+}
+.bem-vindo{
+  width: 100%;
+}
+.volte-sempre h3 {
+  overflow-x: hidden;
+    width: 200px;
+}
+.agende-sua-vistoria{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.agende-sua-vistoria h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 50px;
+}
+.agende-sua-vistoria p {
+  font-size: 14px;
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+}
+.visita h3 {
+  font-size: 16px;
+  width: 100%;
+  margin-top: 185px;
+}
+.visita {
+  width: 100%;/*consetabug de espaçamento em tela*/
+}
+.produtos-2{
+  width: 100%;
+  margin-top: -4px;
+  height: 1150px;
+}
+
+.produtos-2 h2 {
+  font-size: 22px;
+}
+
+.btn-cont {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  margin-top: 10px;  
+}
+.intro p {
+  font-size: 14px;
+}
+.geral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+.geral h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+.geral p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.nossa-marca h2 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.servicos{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 430px;
+}
+.sep3,.sep4{
+  display: none;
+}
+.phone img{
+    position: absolute;
+    top: 4200px;
+    left: 190px;
+    display: none;
+}
+.email img {
+  position: absolute;
+  top: 4320px;
+  left: 190px;
+    display: none;
+}
+.guincho img {
+  position: absolute;
+  top: 4460px;
+  left: 190px;
+    display: none;
+}
+.rodape{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 740px;
+}
+.rodape h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+    width: 200px;
+}
+.rodape p {
+  font-size: 14px;
+}
+.volte-sempre p,.nossos-servicos p,.encontre p {
+  width: 250px;
+}
+.volte-sempre,.nossos-servicos,.encontre {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.rodape-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
